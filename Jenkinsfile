@@ -10,7 +10,7 @@ pipeline{
     stages {
         stage('Checkout from Git'){
             steps{
-                git branch: 'master', url: 'https://github.com/kumarlogesh275-spec/test.git'
+                git branch: 'master', url: 'https://github.com/kumarlogesh275-spec/git-repo.git'
             }
         }
         stage('Install Dependencies') {
